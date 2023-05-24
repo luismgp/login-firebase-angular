@@ -12,7 +12,7 @@ Aplicacion de login en Ionic 7 para uso de aprendizaje o en proyectos.
 
 ### Clone this repository
 ```
-git clone
+git clone https://github.com/luismgp/login-firebase-angular.git
 ```
 
 ### Go into repository
