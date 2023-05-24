@@ -1,6 +1,7 @@
 
 # SIMPLE FIREBASE LOGIN CON ANGULAR 15 Y IONIC 7
 
+
 Boilerplate para acceso rapido a una aplicacion que requiere autenticacion con firebase.
 
 ## Descripcion
@@ -20,10 +21,10 @@ npm install
 
 ## Authors
 
-Luis Miguel Gamboa Tw: @luis_mgp
+Luis Miguel Gamboa
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[![text](https://img.shields.io/twitter/follow/lius_mgp?style=social)](https://www.twitter.com/)
+
 
 ## Version History
 
