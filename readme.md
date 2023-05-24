@@ -1,3 +1,13 @@
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://logowik.com/content/uploads/images/firebase.jpg" alt="Firebase" width="200"></a>
+  <br>
+  Firebase Auth Login
+  <br>
+</h1>
+
+<h4 align="center">A simple login app with firebase auth.</h4>
+
 
 # SIMPLE FIREBASE LOGIN CON ANGULAR 15 Y IONIC 7
 
