@@ -10,13 +10,24 @@ Aplicacion de login en Ionic 7 para uso de aprendizaje o en proyectos.
 
 ## Getting Started
 
-### Installing
+### Clone this repository
+```
+git clone
+```
 
-* Clonar repositorio o descargar ZIP
+### Go into repository
+```
+cd login-firebase-ionic
+```
 
-### Executing program
+### Install dependencies
 ```
 npm install
+```
+
+### Run the app
+```
+ionic serve
 ```
 
 ## Authors
