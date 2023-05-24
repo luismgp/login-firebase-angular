@@ -1,0 +1,72 @@
+<ion-content>
+
+  <!-- Loader -->
+  <ion-progress-bar type="indeterminate" *ngIf="loader" color="warning"></ion-progress-bar>
+
+  <ion-grid>
+    
+    <ion-grid class="top">
+      <ion-row>
+        <ion-col size="12" class="ion-text-center">
+          <img src="assets/imgs/logo-blanco.png">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+
+      <ion-row>
+        <ion-col size="1"></ion-col>
+        <ion-col size="10">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title class="ion-text-center">Recover password</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              Enter the email with which you registered,
+              Instructions will be sent to reset your password.
+            </ion-card-content>
+
+            <ion-list>
+              <ion-item>
+                <ion-icon name="mail" slot="start" color="tertiary"></ion-icon>
+                <ion-input type="email" placeholder="Email" [(ngModel)]='mail'></ion-input>
+              </ion-item>
+            </ion-list>
+            <br>
+            <br>
+
+          </ion-card>
+        </ion-col>
+        <ion-col size="1"></ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="2"></ion-col>
+        <ion-col size="8">
+
+          <ion-button
+            (click)="validate()"
+            (keyup.enter)="validate()"
+            color="light">
+            <ion-spinner name="lines-small" color="danger" *ngIf="loader"></ion-spinner>
+            RECOVER
+          </ion-button>
+          <br>
+          <br>
+          <br>
+
+          <ion-button routerLink="/login" fill="clear" color="light">
+            <ion-icon slot="start" name="chevron-back-outline"></ion-icon>
+            back
+          </ion-button>
+
+        </ion-col>
+        <ion-col size="2"></ion-col>
+      </ion-row>
+      
+    </ion-grid>
+
+  </ion-grid>
+
+</ion-content>

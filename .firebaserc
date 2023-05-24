@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "xipowi-pos": {
+      "hosting": {
+        "app": [
+          "xipowi-pos"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "xipowi-pos"
+  }
+}

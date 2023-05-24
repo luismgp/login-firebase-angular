@@ -1,0 +1,78 @@
+<!-- Loader -->
+<ion-progress-bar type="indeterminate" *ngIf="loader" color="warning"></ion-progress-bar>
+
+<ion-content fullscreen>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+
+        <ion-card mode="ios">
+          <img alt="Your appp name" src="assets/imgs/logo-blanco.png" />
+          <br>
+          <h3 class="ion-text-center ion-text-wrap">Your App Name</h3>
+          <ion-card-content>
+
+            <ion-item>
+              <ion-icon 
+                slot="start" 
+                name="person-outline" 
+                color="tertiary"
+                >
+              </ion-icon>
+              <ion-input  
+                type="email"
+                [(ngModel)]="loginData.email"
+                placeholder="user"
+                name="email">
+              </ion-input>
+            </ion-item>
+            
+            <ion-item>
+              <ion-icon slot="start" name="lock-closed-outline" color="tertiary"></ion-icon>
+              <ion-input
+                type="password" 
+                [(ngModel)]="loginData.password"
+                placeholder="password"
+                (keyup.enter)="login()"
+                name="password">
+              </ion-input>
+            </ion-item>
+            
+            <ion-button 
+              (click)="login()"
+              expand="block"
+              color="dark">
+              <ion-spinner name="lines-small" color="warning" *ngIf="loader"></ion-spinner>
+              access
+            </ion-button>
+
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <p class="ion-text-center" 
+                      routerLink="/reset-pass">
+                    <ion-text>forget your password?</ion-text>
+                  </p>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size="12" class="ion-text-center">
+                  <p><ion-text color="warning">{{msgerror}}</ion-text></p>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+            
+          </ion-card-content>
+
+        </ion-card>
+        
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="footer ion-text-center">
+    
+  </div>
+
+</ion-content>

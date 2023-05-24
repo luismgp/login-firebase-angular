@@ -1,0 +1,51 @@
+ion-content{
+
+    --background: url('/assets/imgs/login-img.jpg') center no-repeat fixed;
+    p{
+        color: #ccc;
+        cursor: pointer;
+    }
+    h3{
+        color: #fff;
+        font-size: smaller;
+    }
+  
+  }
+    
+  ion-grid{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    padding: 5px 0;
+  
+    ion-card{
+        max-width: 400px;
+        background: linear-gradient(90deg, rgba(87,97,245,1) 0%, rgba(147,70,235,1) 100%);
+        img{
+            padding-top: 30px;
+            display: block;
+            margin: auto;
+            max-width: 70%;
+        }
+  
+        ion-card-content{
+            ion-item {
+                --border-radius: 8px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+  
+  
+  }
+  
+  .footer{
+    padding-bottom: 10px;
+    p{
+        color: black;
+    }
+  }

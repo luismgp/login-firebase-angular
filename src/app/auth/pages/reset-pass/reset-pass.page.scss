@@ -1,0 +1,14 @@
+ion-content {
+    // --background: #5260ff;
+    --background: linear-gradient(90deg, rgba(87,97,245,1) 0%, rgba(147,70,235,1) 100%);
+    ion-button{
+        width: 90%;
+        margin-top: 1%;
+        margin-left: 1% !important;
+    }
+    .top{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 30%;
+    }
+}
